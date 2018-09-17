@@ -1,0 +1,16 @@
+h1 {
+  font-family: sans-serif;
+  color: lightpink;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.info{
+  font-family: sans-serif;
+  color: pink;
+}
+#first{
+  font-family: sans-serif;
+  color: gray;
+  padding-bottom: 30px;
+}
