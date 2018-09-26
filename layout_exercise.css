@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  color: white;
+}
+#left-column{
+  background-color: #001f3f;
+  width:40%;
+  float:left;
+}
+
+
+#right-column{
+  background-color: #FF4136;
+  float:left;
+  width: 300px;
+  margin-right: 0;
+  padding-right: 210px;
+  margin-left: 1px;
+
+}
+li{
+  margin:10px;
+}
+
+.column{
+  padding: 50px;
+  padding-bottom: 60px;
+}
+
+#footer{
+  margin-top: 300px;
+  background-color: #3D9970;
+  display: block;
+  width: 1300px;
+  float: left;
+  padding-left; 600px;
+   text-align: center;
+}

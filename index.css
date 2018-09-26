@@ -2,5 +2,23 @@ h1{width: 50%;
   border: 100px solid black;
   margin: 0px;
   padding: 10px;
-
 }
+
+#column1 p{
+  color: red;
+  width: 30%;
+  float:left;
+}
+
+img {float:left;
+    width:100px;
+  }
+
+#column2 {
+  width:30%;
+float:left;
+}
+
+
+
+a{display:block;}
