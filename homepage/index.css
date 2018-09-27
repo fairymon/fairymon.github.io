@@ -1,0 +1,80 @@
+
+
+body{
+  font-family: sans-serif;
+  position: absolute;
+}
+#circle1 {
+    width: 500px;
+    height: 500px;
+    background: #FEC0CF;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    border-radius: 250px;
+    float:left;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin: 100px;
+    margin-bottom: 0;
+    margin-left: 150px;
+}
+#name {margin-top: 180px;
+      margin-left: 150px;
+      font-family: sans-serif;
+}
+.lastname {
+  font-family: sans-serif;
+  font-size: 100px;
+  text-align: right;
+  color:#FEC0CF;
+  margin-left: 680px;
+  position: absolute;
+  margin-top: 280px;;
+}
+
+
+#column1 {
+
+  position: static;
+  float: left;
+  margin-top: 0;
+  font-size: 18px;
+  padding-right: 70px;
+  margin-left: 30px;
+  border-right: 3px solid #FEC0CF;
+
+}
+
+.intro{
+  position: inheri7;
+  display: block;
+  margin-top: 700px;
+  margin-left: 190px;
+color: #4bccc4;
+  font-size: 22px;
+  margin-bottom: 100px;
+  border-left: 3px solid #4bccc4;
+  padding-left: 30px;
+  
+}
+.intro : hover { color:blue;}
+
+#column2 {
+
+float:left;
+margin-top: 0px;
+margin-left: 200px;
+display: block;
+font-family: sans-serif;
+font-size: 22px;
+color:#915e4a;
+}
+img {
+  align-items:flex-end;
+}
+a {display: block;}
+
+ol {
+  font-size: 18px;
+}
