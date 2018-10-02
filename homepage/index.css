@@ -53,7 +53,7 @@ body{
   margin-left: 190px;
 color: #4bccc4;
   font-size: 22px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   border-left: 3px solid #4bccc4;
   padding-left: 30px;
 
@@ -64,11 +64,18 @@ color: #4bccc4;
 
 float:left;
 margin-top: 0px;
-margin-left: 200px;
+margin-left: 190px;
+margin-right: 0;
+margin-bottom: 0;
 display: block;
 font-family: sans-serif;
 font-size: 22px;
 color:#915e4a;
+border-left: 3px solid #4bccc4;
+padding-left: 30px;
+
+width: 1000px;
+
 }
 img {
   align-items:flex-end;
@@ -85,6 +92,8 @@ ol {
   overflow: hidden;
   background-color: #FEC0CF;
   font-family: Arial;
+  margin-bottom: 50px;
+  padding-left: 180px;
 }
 
 /* Links inside the navbar */
@@ -149,3 +158,9 @@ ol {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+html
+{background-image: linear-gradient(to bottom right, #FEC0CF, #4bccc4);
+}
+
+
+.grad {background-image: linear-gradient(to right, red , yellow);}
