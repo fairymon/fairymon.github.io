@@ -161,9 +161,7 @@ ol {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-html
-{background-image: linear-gradient(to bottom right, #FEC0CF, #4bccc4);
-}
+
 
 
 .grad {background-image: linear-gradient(to right, red , yellow);}
