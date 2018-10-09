@@ -58,12 +58,23 @@ color: #4bccc4;
   padding-left: 30px;
 
 }
+
+#works{
+  width: 200px;
+  padding: 20px;
+  display: inline;
+}
+.descript
+{
+  font-size: 12px;
+  text-align: inherit;
+}
 .intro : hover { color:blue;}
 
 #column2 {
 
 float:left;
-margin-top: 0px;
+margin-top: 100px;
 margin-left: 190px;
 margin-right: 0;
 margin-bottom: 100px;
@@ -76,7 +87,7 @@ padding-left: 30px;
 padding-bottom: 500px;
 width: 1000px;
 padding-top: 0;
-height: 800px;
+height: 400px;
 
 
 }
