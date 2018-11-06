@@ -1,0 +1,92 @@
+
+
+
+.main
+  {
+    height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: auto;
+  object-position: center;
+  position: absolute;
+  float: left;
+  box-shadow:
+          0 0 60px 30px #fff,  /* inner white */
+          0 0 140px 90px #9933ff; /* outer cyan */
+  background-color: #9933ff;
+  top: 0px;
+  left:0px;
+  z-index: 1;
+
+}
+#hour{
+  left: 100px;
+  position: absolute;
+}
+
+.sun
+{
+  height: 100px;
+width: 100px;
+border-radius: 50%;
+display: inline-block;
+margin-left: 150px;
+margin-top: 0;
+object-position: center;
+position: absolute;
+background-color: yellow;
+position: relative;
+float: left;
+z-index: 1;
+display: inline-block;
+opacity: .5;
+
+}
+
+#hour{
+  top: 300px;
+  left: 300px;
+}
+
+#green
+{
+  height: 100px;
+width: 100px;
+border-radius: 50%;
+display: inline-block;
+margin-left: 150px;
+margin-top: 0;
+object-position: center;
+position: absolute;
+background-color: #00ffff;
+position: relative;
+float: left;
+
+}
+
+
+#pink
+{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+display: inline-block;
+object-position: center;
+position: absolute;
+background-color: #f880b0;
+position: relative;
+float: right;
+
+}
+
+#png
+{
+  height: 530px;
+width: 530px;
+float: left;
+position: relative;
+top: 30px;
+left: 28px;
+z-index: 2;
+}
