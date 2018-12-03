@@ -1,8 +1,25 @@
 #box {
   position: absolute;
-  animation: spin 3s infinite;
+  animation: spin 2s infinite;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+.fishes{
+  position: relative;
+  width: 50%;
+  opacity: 1;
+}
+
+
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #eaf17e;
 }
 
 @keyframes spin {
@@ -87,26 +104,67 @@ background-color: #021b45;
 }
 
 .fish{
-  width:50px;
-  height:20px;
+  width:70px;
+  height:40px;
   position: absolute;
+  z-index: 2;
+  opacity: 1;
 }
 
-.fish2{
-  width:50px;
-  height:20px;
+.bbshark{
+  width:70px;
+  height:40px;
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+}
+
+.btn{
+  position: absolute;
+  z-index: 1;
+  margin: 12px;
+}
+
+
+.bbshark1{
+  position: absolute;
+  left: 300px;
+}
+
+.bbshark2{
   position: absolute;
   left: 500px;
 }
 
-.fish3{
-  width:50px;
-  height:20px;
+.bbshark3{
   position: absolute;
-  left: 500px;
-  top: 400px;
+  left: 800px;
+    top: 400px;
 }
 
+.fishes4{
+  position: absolute;
+  left: 1000px;
+    top: 400px;
+}
+
+.fishes5{
+  position: absolute;
+  left: 400px;
+    top: 400px;
+}
+
+.fishes6{
+  position: absolute;
+  left: 600px;
+    top: 400px;
+}
+
+.fishes7{
+  position: absolute;
+  left: 800px;
+    top: 200px;
+}
 
 .ocean1{
   position: absolute;
