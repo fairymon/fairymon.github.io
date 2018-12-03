@@ -128,42 +128,117 @@ background-color: #021b45;
 
 .bbshark1{
   position: absolute;
-  left: 300px;
+  left: 450px;
+  top: 350px;
+
 }
 
 .bbshark2{
   position: absolute;
-  left: 500px;
+  left: 700px;
+  top: 220px;
 }
 
 .bbshark3{
   position: absolute;
-  left: 800px;
-    top: 400px;
+  left: 900px;
+    top: 600px;
 }
 
 .fishes4{
   position: absolute;
-  left: 1000px;
-    top: 400px;
+  left: 400px;
+    top: 180px;
 }
 
 .fishes5{
   position: absolute;
-  left: 400px;
-    top: 400px;
+  left: 500px;
+    top: 220px;
 }
 
 .fishes6{
   position: absolute;
   left: 600px;
-    top: 400px;
+    top: 180px;
 }
 
 .fishes7{
   position: absolute;
   left: 800px;
-    top: 200px;
+    top: 180px;
+}
+
+.fishes8{
+  position: absolute;
+  left: 900px;
+    top: 220px;
+}
+
+.fishes9{
+  position: absolute;
+  left: 350px;
+    top: 400px;
+}
+
+.fishes10{
+  position: absolute;
+  left: 550px;
+    top: 400px;
+}
+
+.fishes11{
+  position: absolute;
+  left: 650px;
+    top: 350px;
+}
+
+.fishes12{
+  position: absolute;
+  left: 750px;
+    top: 400px;
+}
+
+.fishes13{
+  position: absolute;
+  left: 850px;
+    top: 350px;
+}
+
+.fishes14{
+  position: absolute;
+  left: 950px;
+    top: 400px;
+}
+
+.fishes15{
+  position: absolute;
+  top: 550px;
+  left: 400px;
+}
+
+.fishes16{
+  position: absolute;
+  left: 500px;
+    top: 600px;
+}
+
+.fishes17{
+  position: absolute;
+  left: 600px;
+    top: 550px;
+}
+
+.fishes18{
+  position: absolute;
+  left: 700px;
+    top: 600px;
+}
+
+.fishes19{
+  position: absolute;
+  left: 800px;
+    top: 550px;
 }
 
 .ocean1{
