@@ -72,10 +72,10 @@ background-color: #021b45;
   position: absolute;
   width:30px;
   height:30px;
-  background-color: #94c4d3;
+  background-color: #ffffff;
   border-radius:50%;
-  opacity: 50%;
-  box-shadow:0px 0px 15px 2px #ffffff;
+  opacity: 10%;
+  box-shadow:0px 0px 15px 2px #ffb6d0;
   z-index:2;
   animation: ocean 24s infinite;
   animation-duration: 10s;
@@ -86,19 +86,19 @@ background-color: #021b45;
 
 @keyframes ocean{
   0% {
-    left:0px; top:400px;
+    left:0px; top:300px;
   }
   25%{
-   left:30px; top:100px;
+   left:30px; top:0px;
   }
   50%{
-   left:0px; top:-200px;
+   left:0px; top:-300px;
   }
   75%{
-    left:30px; top:-500px;
+    left:30px; top:-600px;
   }
   100%{
-    left:0px; top:-800px;
+    left:0px; top:-900px;
   }
 }
 
