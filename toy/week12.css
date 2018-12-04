@@ -12,16 +12,6 @@
 }
 
 
-}
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #eaf17e;
-}
-
 @keyframes spin {
 0% {
 transform: rotateZ(0deg);
@@ -73,17 +63,6 @@ background-color: #021b45;
   animation-iteration-count: infinite;
 }
 
-@keyframes Bubble{
-  0%,100%{
-    transform:scale(1);
-  }
-  10%,30%,50%,70%,90%{
-   transform: scale(.9);
-  }
-  20%,40%,60%,80%{
-   transform: scale(1.1);
-  }
-}
 
 @keyframes ocean{
   0% {
@@ -100,6 +79,90 @@ background-color: #021b45;
   }
   100%{
     left:0px; top:-800px;
+  }
+}
+
+#set1{
+position: absolute;
+width:600px;
+height:50px;
+animation: set1 24s infinite;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+#set2{
+  position: absolute;
+  width:600px;
+  height:50px;
+  animation: set2 24s infinite;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#set3{
+  position: absolute;
+  width:600px;
+  height:50px;
+  animation: set3 24s infinite;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes set1{
+  0% {
+    left:1000px; top:100px;
+  }
+  25%{
+   left:500px; top:0px;
+  }
+  50%{
+   left:0px; top:100px;
+  }
+  75%{
+    left:-500px; top:0px;
+  }
+  100%{
+    left:-1000px; top:100px;
+  }
+}
+
+@keyframes set2{
+  0% {
+    left:1000px; top:50px;
+  }
+  25%{
+   left:500px; top:0px;
+  }
+  50%{
+   left:0px; top:50px;
+  }
+  75%{
+    left:-500px; top:0px;
+  }
+  100%{
+    left:-1000px; top:50px;
+  }
+}
+
+@keyframes set3{
+  0% {
+    left:1000px; top:0px;
+  }
+  25%{
+   left:500px; top:100px;
+  }
+  50%{
+   left:0px; top:0px;
+  }
+  75%{
+    left:-500px; top:100px;
+  }
+  100%{
+    left:-1000px; top:0px;
   }
 }
 
