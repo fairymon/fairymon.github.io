@@ -3,32 +3,29 @@ window.addEventListener(
 )
 
 var box = document.querySelector("#box")
-var shark = document.querySelector("shark.png")
 
 function onMouseMove (evt){
 box.style.left = evt.x + "px"
 box.style.top = evt.y + "px"
 }
 
-
-
-var recognizer = new webkitSpeechRecognition()
-
 document.addEventListener("mousemove", handleBox)
 
 function handleBox(evt) {
-var tag = evt.target.tagName.toLowerCase()
-
-if (tag == "img") {
+var isFish = evt.target.classList.contains('fish')
+console.log(isFish)
+if (isFish == true) {
 box.style.animationPlayState = "running"
 }
 else {
 box.style.animationPlayState = "paused"
 }
 }
+var shark = document.querySelector("shark.png")
+var bigshark = document.querySelector("#bigshark")
 
-function wow(shark) {shark.src="eatshark.png";}
-function hul(shark) {shark.src="shark.png";}
+function wow(shark) {bigshark.src="eatshark.png";}
+function hul(shark) {bigshark.src="shark.png";}
 
 
 function changeimage1() {
@@ -111,28 +108,27 @@ var fish19 = document.querySelector("#fish19");
 fish19.src="dddfish.png"
 }
 
+function sharkchange1() {
+var bbshark1 = document.querySelector("#bbshark1");
+bbshark1.src="shark.png";
+}
 
-//뼈로 한번에 안바뀌게
+function sharkchange2() {
+var bbshark2 = document.querySelector("#bbshark2");
+bbshark2.src="shark.png";
+}
 
-//한번에 짧게 적는법
+function sharkchange3() {
+var bbshark3 = document.querySelector("#bbshark3");
+bbshark3.src="shark.png";
+}
 
 
+//smt like timer
+
+//이미지 위에서만 돌게할라했는데 왜 자꾸돌죠
+//클릭할때 입벌리]
 //이거를 마우스위에 상어에다가 쓰고싶은데,,상어가 클릭할때 입을 벌렸으면 좋겠다
-
-//js
-//function wow(shark) {shark.src="eatshark.png";}
-//function hul(shark) {shark.src="shark.png";}
-//html
-//<div class="fishes1">
-//  <img class="bbshark" onmouseover="wow(this)" onmouseout="hul(this)" border="0"
-//   src="fish.png">
-//  <button class="btn" data-text-swap="crinkle"></button>
-//</div>
-//
-
-
-//var fishes = document.querySelectorAll("#fishes1, #fishes2, #fishes3, #btn")
-//fishes.addEventListener('onclick', function() {
 
 console.log(fish4)
 console.log(fish5)

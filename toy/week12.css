@@ -42,7 +42,7 @@ transform: rotateZ(360deg);
 }
 
 
-.shark{
+#bigshark{
   width:160px;
   height:100px;
   position: absolute;
