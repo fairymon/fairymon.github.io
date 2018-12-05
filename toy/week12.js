@@ -14,6 +14,7 @@ document.addEventListener("mousemove", handleBox)
 function handleBox(evt) {
 var isFish = evt.target.classList.contains('fish')
 console.log(isFish)
+
 if (isFish == true) {
 box.style.animationPlayState = "running"
 }
@@ -22,6 +23,8 @@ box.style.animationPlayState = "paused"
 }
 }
 var shark = document.querySelector("shark.png")
+var shark = document.querySelector(".fish")
+var shark = document.querySelector(".bbshark1")
 var bigshark = document.querySelector("#bigshark")
 
 function wow(shark) {bigshark.src="eatshark.png";}
@@ -108,27 +111,11 @@ var fish19 = document.querySelector("#fish19");
 fish19.src="dddfish.png"
 }
 
-function sharkchange1() {
-var bbshark1 = document.querySelector("#bbshark1");
-bbshark1.src="shark.png";
-}
-
-function sharkchange2() {
-var bbshark2 = document.querySelector("#bbshark2");
-bbshark2.src="shark.png";
-}
-
-function sharkchange3() {
-var bbshark3 = document.querySelector("#bbshark3");
-bbshark3.src="shark.png";
-}
-
-
 //smt like timer
 
-//ì´ë¯¸ì§€ ìœ„ì—ì„œë§Œ ëŒê²Œí• ë¼í–ˆëŠ”ë° ì™œ ìžê¾¸ëŒì£ 
-//í´ë¦­í• ë•Œ ìž…ë²Œë¦¬]
-//ì´ê±°ë¥¼ ë§ˆìš°ìŠ¤ìœ„ì— ìƒì–´ì—ë‹¤ê°€ ì“°ê³ ì‹¶ì€ë°,,ìƒì–´ê°€ í´ë¦­í• ë•Œ ìž…ì„ ë²Œë ¸ìœ¼ë©´ ì¢‹ê² ë‹¤
+//이미지 위에서만 돌게할라했는데 왜 자꾸돌죠
+//클릭할때 입벌리]
+//이거를 마우스위에 상어에다가 쓰고싶은데,,상어가 클릭할때 입을 벌렸으면 좋겠다
 
 console.log(fish4)
 console.log(fish5)
