@@ -111,6 +111,23 @@ var fish19 = document.querySelector("#fish19");
 fish19.src="dddfish.png"
 }
 
+function changeshark1() {
+var bbshark1 = document.querySelector("#bbshark1");
+bbshark1.src="eatshark.png"
+}
+console.log(bbshark1)
+
+function changeshark2() {
+var bbshark2 = document.querySelector("#bbshark2");
+bbshark2.src="eatshark.png"
+}
+console.log(bbshark2)
+
+function changeshark3() {
+var bbshark3 = document.querySelector("#bbshark3");
+bbshark3.src="eatshark.png"
+}
+console.log(bbshark3)
 //smt like timer
 
 //이미지 위에서만 돌게할라했는데 왜 자꾸돌죠

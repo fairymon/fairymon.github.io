@@ -134,7 +134,7 @@ animation-iteration-count: infinite;
 
 @keyframes set1{
   0% {
-    left:1000px; top:100px;
+    left:900px; top:100px;
   }
   25%{
    left:500px; top:0px;
@@ -146,7 +146,7 @@ animation-iteration-count: infinite;
     left:-500px; top:0px;
   }
   100%{
-    left:-1000px; top:100px;
+    left:-900px; top:100px;
   }
 }
 
