@@ -1,0 +1,21 @@
+h1 {
+  font-family: sans-serif;
+  color: lightpink;
+  text-align: center;
+  margin: 100px;
+}
+
+.interview{
+  color: darkgreen;
+  padding-left: 40px;
+}
+
+#contents {
+  font-family: sans-serif;
+  background-color: pink;
+  padding: 15px;
+}
+
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10{
+  padding-bottom: 5px;
+}
