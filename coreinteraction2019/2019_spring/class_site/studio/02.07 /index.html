@@ -1,0 +1,307 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>reactive</title>
+<style>
+
+body
+{
+  width: 1200px;
+  height: 1000px;
+  background-color: lightblue;
+}
+
+*{
+
+}
+
+
+
+#square{
+  background-color: rgb(219,135,100);
+  width: 100px;
+  height:600px;
+  left:400px;
+  top:200px;
+  z-index: 30;;
+  margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+
+
+}
+
+#circle1{
+  background-color: beige;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px ;
+margin-top: -200px;
+  z-index: 20;
+  margin-left: 580px;
+    position: relative;
+}
+
+#circle2{
+  background-color: orange;
+
+  width: 130px;
+  height: 130px;
+  border-radius: 115px 115px 100px 100px;
+  left: 1000px;
+  position: relative;
+  top: -30px;
+}
+
+.oval{
+    position:relative;
+    top: -100px;
+
+}
+
+#ovalb{
+  width:90px;
+  height: 220px;
+  background-color:green;
+  border-radius: 30px / 150px ;
+  left:900px;
+  top:-250px;
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+#ovals{
+  width:40px;
+  height: 140px;
+  background-color:beige;
+
+  border-radius:  40px / 100px ;
+    left:900px;
+  top:-250px;
+  float: left;
+  display: inline-block;
+  position: relative;
+  padding:  0;
+  margin-top: 40px ;
+  margin-left: -50px;
+
+
+}
+
+
+
+#bottombt{
+  width: 130px;
+  height:200px;
+  background-color:darkgreen;
+  top: 400px;
+  left: 30px;
+  position: absolute;
+  z-index: 0;
+}
+
+#topbt {
+    width: 30px;
+    height: 100px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 200px solid darkgreen;
+    z-index: 20;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.bottle{
+  position:absolute;
+  width: 100px;
+  height: 200px;
+opacity: 0.6;
+left: 400px;
+top: 200px;
+
+}
+
+#flower{
+
+}
+
+.bud{
+    position:absolute;
+    left: 400px;
+    width: 400px;
+    height: 400px;
+    z-index: 30;
+
+
+}
+
+#ff{
+  width: 60px;
+  height: 60px;
+  background: lightpink;
+  border-radius: 60px / 60px;
+  transform: skewX(30deg);
+  transform: skewY(30deg);
+    position:absolute;
+    top: 130px;
+    z-index: 50;
+}
+
+
+
+#sf{
+  width: 60px;
+  height: 80px;
+  background: lightpink;
+  border-radius: 60px / 80px;
+
+    position:absolute;
+transform: rotate(10deg);
+    top: 40px;
+    margin-left: 50px;
+
+}
+
+#tf{
+  width: 60px;
+  height: 80px;
+  background: lightpink;
+  border-radius: 60px / 80px;
+
+    position:absolute;
+transform: rotate(80deg);
+    top: 200px;
+    margin-left: 200px;
+
+}
+
+#fif{
+
+    width: 60px;
+    height: 70px;
+    background: lightpink;
+    border-radius: 60px / 70px;
+
+      position:absolute;
+  transform: rotate(160deg);
+      top: 280px;
+      margin-left: 100px;
+}
+
+.lef{
+  position:absolute;
+  left: 400px;
+  width: 600px;
+  height: 400px;
+  z-index: 10;
+}
+
+#lf1{
+  width: 190px;
+  height: 130px;
+  border-radius: 70%;
+  box-shadow: 30px 50px 1px 1px lightgreen;
+    transform: rotate(250deg);
+    margin-top: 160px;
+    top: 100px;
+    left: 300px;
+}
+
+#lf2{
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+  box-shadow: 20px 40px 1px 1px lightgreen;
+transform: rotate(180deg);
+    margin-top: 160px;
+    top: 200px;
+    left: 400px;
+}
+
+#lf3{
+  width: 190px;
+  height: 130px;
+  border-radius: 70%;
+  box-shadow: 30px 50px 1px 1px lightgreen;
+    transform: rotate(180deg);
+    margin-top: 160px;
+    top: 150px;
+    left: 550px;
+}
+
+#lf4{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 lightgreen;
+}
+
+#lf5{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 lightgreen;
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+  <div class="flowerb shape">
+    <div class="bottle">
+        <div id="topbt"></div>
+        <div id="bottombt"></div>
+    </div>
+    <div id="flower">
+      <div class="bud" id="ff"></div>
+
+      <div class="bud" id="sf"></div>
+      <div class="bud" id=tf></div>
+      <div class="bud" id="fif"></div>
+    </div>
+</div>
+    <div id="leaves">
+      <div class="lef" id="lf1"></div>
+
+      <div class="lef" id="lf2"></div>
+      <div class="lef" id="lf3"></div>
+      <div class="lef" id="lf4"></div>
+      <div class="lef" id="lf5"></div>
+    </div>
+  </div>
+
+  <div class="shape" id="square"></div>
+
+  <div class="shape" id="circle1"></div>
+
+  <div class="shape" id="circle2"></div>
+
+
+  <div class="oval" id="ovalb"></div>
+    <div class="oval" id="ovals"></div>
+
+
+  <div class="shape" id="triangle"></div>
+
+
+
+
+
+  <div class="shape" id="diamond"></div>
+  <div class="shape" id="line-y"></div>
+  <div class="shape" id="line-x"></div>
+  <p>02/05/2019</p>
+
+
+
+</body>
+
+</html>

@@ -56,8 +56,9 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  height:100vh;
-background-color: #021b45;
+  height:1200px;
+   width:1000px;
+  background-image: linear-gradient(rgba(218, 235, 243,1), rgba(5,165,210, 1));
 }
 
 .ocean{
@@ -65,7 +66,6 @@ background-color: #021b45;
   margin-bottom: 400px;
   left: 0px;
   top:0px;
-
 }
 
 #bubble1, #bubble2, #bubble3, #bubble4, #bubble5, #bubble6 {
@@ -184,6 +184,39 @@ animation-iteration-count: infinite;
   100%{
     left:-1000px; top:0px;
   }
+}
+
+@keyframes notice{
+  0% {
+    left:1000px; top:100px;
+  }
+  25%{
+   left:600px; top:90px;
+  }
+  50%{
+   left:200px; top:100px;
+  }
+  75%{
+    left:-200px; top:90px;
+  }
+  100%{
+    left:-400px; top:100px;
+  }
+}
+
+.notice{
+  width: 50px;
+  position: absolute;
+  animation: notice 20s infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  left: 100px;
+  top: 550px;
+}
+
+#notice{
+width: 500px;
+height: 200px;
 }
 
 .fish{
