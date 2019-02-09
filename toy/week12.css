@@ -1,0 +1,409 @@
+#box {
+  position: absolute;
+  animation: spin 2s infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.fishes{
+  position: relative;
+  width: 50%;
+  opacity: 1;
+}
+
+#jelly{
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  animation: jelly 3s infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  left: 100px;
+  top: 550px;
+}
+
+@keyframes jelly{
+  0%,50%,100%{
+    transform: scale(1);
+  }
+  25%, 75%{
+   transform: scale(.95);
+  }
+}
+
+
+@keyframes spin {
+0% {
+transform: rotateZ(0deg);
+}
+100% {
+transform: rotateZ(360deg);
+}
+}
+
+
+#bigshark{
+  width:160px;
+  height:100px;
+  position: absolute;
+}
+
+
+
+body{
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:1200px;
+   width:1000px;
+  background-image: linear-gradient(rgba(218, 235, 243,1), rgba(5,165,210, 1));
+}
+
+.ocean{
+  position: absolute;
+  margin-bottom: 400px;
+  left: 0px;
+  top:0px;
+}
+
+#bubble1, #bubble2, #bubble3, #bubble4, #bubble5, #bubble6 {
+  position: absolute;
+  width:30px;
+  height:30px;
+  background-color: #ffffff;
+  border-radius:50%;
+  opacity: 10%;
+  box-shadow:0px 0px 15px 2px #ffb6d0;
+  z-index:2;
+  animation: ocean 24s infinite;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes ocean{
+  0% {
+    left:0px; top:300px;
+  }
+  25%{
+   left:30px; top:0px;
+  }
+  50%{
+   left:0px; top:-300px;
+  }
+  75%{
+    left:30px; top:-600px;
+  }
+  100%{
+    left:0px; top:-900px;
+  }
+}
+
+#set1{
+position: absolute;
+width:600px;
+height:50px;
+animation: set1 24s infinite;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+#set2{
+  position: absolute;
+  width:600px;
+  height:50px;
+  animation: set2 24s infinite;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#set3{
+  position: absolute;
+  width:600px;
+  height:50px;
+  animation: set3 24s infinite;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes set1{
+  0% {
+    left:900px; top:100px;
+  }
+  25%{
+   left:500px; top:0px;
+  }
+  50%{
+   left:0px; top:100px;
+  }
+  75%{
+    left:-500px; top:0px;
+  }
+  100%{
+    left:-900px; top:100px;
+  }
+}
+
+@keyframes set2{
+  0% {
+    left:1000px; top:50px;
+  }
+  25%{
+   left:500px; top:0px;
+  }
+  50%{
+   left:0px; top:50px;
+  }
+  75%{
+    left:-500px; top:0px;
+  }
+  100%{
+    left:-1000px; top:50px;
+  }
+}
+
+@keyframes set3{
+  0% {
+    left:1000px; top:0px;
+  }
+  25%{
+   left:500px; top:100px;
+  }
+  50%{
+   left:0px; top:0px;
+  }
+  75%{
+    left:-500px; top:100px;
+  }
+  100%{
+    left:-1000px; top:0px;
+  }
+}
+
+@keyframes notice{
+  0% {
+    left:1000px; top:100px;
+  }
+  25%{
+   left:600px; top:90px;
+  }
+  50%{
+   left:200px; top:100px;
+  }
+  75%{
+    left:-200px; top:90px;
+  }
+  100%{
+    left:-400px; top:100px;
+  }
+}
+
+.notice{
+  width: 50px;
+  position: absolute;
+  animation: notice 20s infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  left: 100px;
+  top: 550px;
+}
+
+#notice{
+width: 500px;
+height: 200px;
+}
+
+.fish{
+  width:70px;
+  height:40px;
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+}
+
+.bbshark{
+  width:70px;
+  height:40px;
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+}
+
+.btn{
+  position: absolute;
+  z-index: 1;
+  margin: 12px;
+}
+
+
+.bbshark1{
+  position: absolute;
+  left: 450px;
+  top: 350px;
+
+}
+
+.bbshark2{
+  position: absolute;
+  left: 700px;
+  top: 220px;
+}
+
+.bbshark3{
+  position: absolute;
+  left: 900px;
+    top: 600px;
+}
+
+.fishes4{
+  position: absolute;
+  left: 400px;
+    top: 180px;
+}
+
+.fishes5{
+  position: absolute;
+  left: 500px;
+    top: 220px;
+}
+
+.fishes6{
+  position: absolute;
+  left: 600px;
+    top: 180px;
+}
+
+.fishes7{
+  position: absolute;
+  left: 800px;
+    top: 180px;
+}
+
+.fishes8{
+  position: absolute;
+  left: 900px;
+    top: 220px;
+}
+
+.fishes9{
+  position: absolute;
+  left: 350px;
+    top: 400px;
+}
+
+.fishes10{
+  position: absolute;
+  left: 550px;
+    top: 400px;
+}
+
+.fishes11{
+  position: absolute;
+  left: 650px;
+    top: 350px;
+}
+
+.fishes12{
+  position: absolute;
+  left: 750px;
+    top: 400px;
+}
+
+.fishes13{
+  position: absolute;
+  left: 850px;
+    top: 350px;
+}
+
+.fishes14{
+  position: absolute;
+  left: 950px;
+    top: 400px;
+}
+
+.fishes15{
+  position: absolute;
+  top: 550px;
+  left: 400px;
+}
+
+.fishes16{
+  position: absolute;
+  left: 500px;
+    top: 600px;
+}
+
+.fishes17{
+  position: absolute;
+  left: 600px;
+    top: 550px;
+}
+
+.fishes18{
+  position: absolute;
+  left: 700px;
+    top: 600px;
+}
+
+.fishes19{
+  position: absolute;
+  left: 800px;
+    top: 550px;
+}
+
+.ocean1{
+  position: absolute;
+  padding-bottom: 300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  top: 800px;
+  left: 100px;
+}
+
+.ocean2{
+  position: absolute;
+  padding-bottom: 300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  top: 700px;
+  left: 300px;
+}
+
+.ocean3{
+  position: absolute;
+  padding-bottom: 300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  top: 900px;
+  left: 500px;
+}
+
+.ocean4{
+  position: absolute;
+  padding-bottom: 300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  top: 600px;
+  left: 700px;
+}
+
+.ocean5{
+  position: absolute;
+  padding-bottom: 300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  top: 700px;
+  left: 900px;
+}
+
+.ocean6{
+  position: absolute;
+  top: 500px;
+  left: 1100px;
+}
